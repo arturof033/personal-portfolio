@@ -1,5 +1,3 @@
-# personal-portfolio
-
 # Personal Portfolio
 
 # Arturo Flores
