@@ -1,0 +1,129 @@
+@import url("dm-mono.css");
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #212122;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+
+}
+
+/* each individual card */
+.card
+{
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* margin-bottom: 1rem; */
+    
+    position: relative;
+    width: 100%; 
+
+    /* border for reference */
+    border-color: #FFFFF0;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    
+
+}
+
+/* welcome card */
+.welcome
+{
+    /* aligns title to the title on the other pages */
+    margin: 40px;
+}
+
+.welcome h1
+{
+    font-family: 'dm_monoregular', Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 60px;
+    line-height: 2rem;
+}
+
+.welcome p
+{
+    font-family: 'dm_monoregular', Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 13px;
+}
+
+.option
+{
+    margin-left: 0rem;
+    text-align: center;
+    margin-right: 150px;
+}
+
+/* list */
+.option ul
+{
+    /* bullet points and margin */
+    padding: 0;
+    list-style-type: none;
+}
+
+/* list elements */
+.option ul li
+{
+    list-style: none;
+    margin-bottom: 2rem;
+
+
+}
+
+/* list text */
+.option ul li a
+{
+    font-family: 'dm_monomedium_italic', Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.option a:hover
+{
+    transition: font-size 1.5s;
+    font-size: 80px;
+}
+
+.projects a:hover
+{
+    color: #FFDAC1;
+}
+
+.about a:hover
+{
+    color: #CCE8DB;
+}
+
+.contact a:hover
+{
+    color: #C1D4E3;
+}

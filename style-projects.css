@@ -1,0 +1,158 @@
+@import url("dm-mono.css");
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #212122;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* left side menu */
+.menu
+{
+    background-color: #FFFFF0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+
+    /* sets list items (options to different pages) to start from the top and be stretched out
+    to the most it can */
+    align-items: start;
+    display: stretch;
+}
+
+.menu ul
+{
+    /* removes list decorations and indentations */
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li
+{
+    /* creates "buttons" */
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+.menu ul li a
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color:#212122;
+    text-decoration: none;
+    font-size: 13px;
+    
+    /* flips text 90 degrees clockwise */
+    writing-mode: vertical-lr;
+    text-orientation:sideways-right;
+}
+
+.home
+{
+    background-color: #F8B3CA;
+}
+
+.projects
+{
+    background-color: #FFDAC1; 
+}
+
+.contact
+{
+    background-color: #C1D4E3; 
+}
+
+.about
+{
+    background-color: #CCE8DB;;
+}
+
+
+.title h1
+{
+    font-family: 'dm_monoregular';
+    color: #FFFFF0;
+    font-size: 60px;
+    line-height: .375rem;
+    padding-left: 100px;
+}
+
+/* group of cards */
+.card-options
+{
+    /* referes to the organization of each card */
+    display: flex;
+    align-items: stretch;
+    gap: 2.25rem;
+
+    width: 100%;
+
+    padding-left: 80px;
+    padding-right: 40px;
+
+    margin-top: 125px
+}
+
+/* each individual card */
+.card
+{
+    /* refers to the organization of the cards content */
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    padding-bottom: 20px;
+
+    width: 100%; 
+    
+    /* borders for reference and testing */
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.card h2
+{
+    font-family: 'dm_monolight_italic', Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card p
+{
+    font-family: "dm_monolight", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: .75rem;
+}
+
+.card img
+{
+    padding-top: 40px;
+    width: 100%;
+}
+
+.bookstore h2
+{
+    margin-bottom: 20px;
+}
+
+.gradebook img
+{
+    margin-top: 15px;
+}
+
+.mini-games img
+{
+    margin-top: 65px;
+}

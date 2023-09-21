@@ -1,0 +1,60 @@
+
+/* DM italic: 'dm_monoitalic' */
+@font-face {
+    font-family: 'dm_monoitalic';
+    src: url('DMMono/dmmono-italic-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DM light: 'dm_monolight' */
+@font-face {
+    font-family: 'dm_monolight';
+    src: url('DMMono/dmmono-light-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DM italic: 'dm_monolight_italic' */
+@font-face {
+    font-family: 'dm_monolight_italic';
+    src: url('DMMono/dmmono-lightitalic-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DM medium: 'dm_monomedium' */
+@font-face {
+    font-family: 'dm_monomedium';
+    src: url('DMMono/dmmono-medium-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DM medium italic: 'dm_monomedium_italic' */
+@font-face {
+    font-family: 'dm_monomedium_italic';
+    src: url('DMMono/dmmono-mediumitalic-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DM regular: 'dm_monoregular' */
+@font-face {
+    font-family: 'dm_monoregular';
+    src: url('DMMono/dmmono-regular-webfont.woff2') format('woff2'),
+         url('DMMono/dmmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

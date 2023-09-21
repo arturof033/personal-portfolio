@@ -1,0 +1,262 @@
+@import url("dm-mono.css");
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #212122;
+    /* removes horizontal scroll, only keeps vertical scroll */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* left side menu */
+.menu
+{
+    background-color: #FFFFF0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+
+    /* sets list items (options to different pages) to start from the top and be stretched out
+    to the most it can */
+    align-items: start;
+    display: stretch;
+}
+
+.menu ul
+{
+    /* removes list decorations and indentations */
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li
+{
+    /* creates "buttons" */
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+.menu ul li a
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color:#212122;
+    text-decoration: none;
+    font-size: 14px;
+    
+    /* flips text 90 degrees clockwise */
+    writing-mode: vertical-lr;
+    text-orientation:sideways-right;
+}
+.home
+{
+    background-color: #F8B3CA;
+}
+
+.projects
+{
+    background-color: #FFDAC1; 
+}
+
+.about
+{
+    background-color: #CCE8DB;
+}
+
+.contact
+{
+    background-color: #C1D4E3; 
+}
+
+.title h1
+{
+    font-family: 'dm_monoregular';
+    color: #FFFFF0;
+    font-size: 60px;
+    line-height: .5rem;
+    padding-left: 100px;
+}
+
+/* group of cards */
+.contact-section
+{
+    display: flex;
+    /* items stretch to fit the container */
+    align-items: start;
+    gap: 6rem;
+
+    /* max width according to space allocated */
+    width: 100%;
+
+    /* moves it away from side bar */
+    padding-left: 100px;
+    padding-right: 20px;
+    margin-top: 125px;
+
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */    /* REUTNR HERE */
+/*  */
+    /* places cards at the center of the screen */
+    /* position: absolute; */
+    
+ 
+
+
+}
+
+/* individual cards */
+.card
+{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    width: 100%; 
+    
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.info h3
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.info p
+{
+    font-family: "dm_monoregular";
+    color: #FFFFF0;
+    font-size: 12px;
+    
+}
+
+.socials
+{
+    font-family: "dm_monoitalic";
+}
+
+.socials a
+{
+    text-decoration: none;
+    font-family: "dm_monoitalic", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 12px;
+    line-height: 2rem;
+}
+
+.contact-form h3
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 25px;
+    text-align: center;
+}
+
+form
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 12px
+
+}
+
+/* elements of the form */
+.enter
+{
+    padding-bottom: 1rem;
+}
+
+/* input elements  */
+.enter input
+{
+    font-family: "dm_monoregular";
+    font-size: 12px;
+    background-color:#FFFFF0;
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 8px;
+    margin-top: 3px;
+}
+
+/* message textbox */
+.message textarea
+{
+    font-family: "dm_monoregular";
+    font-size: 12px;
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    font-family: 'dm_monolight', Georgia, 'Times New Roman', Times, serif;
+    padding-left: 7px;
+    padding-top: 4px;
+    margin-top: 3px;
+
+}
+
+.submit-button
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFFF0;
+    font-size: 12px;
+    border: none;
+    color: #212122;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 7px
+}
+
+/* group of reviews */
+.testimonials
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+
+
+    padding-left: 100px;
+    padding-right: 60px;
+
+    width: 100%;
+    
+    margin-top: 50px;
+    
+
+}
+ 
+/* individual reviews */
+.client-review
+{
+    border:#FFFFF0;
+    border-width: 3.75px;
+    border-style:double;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    text-align: center;
+    font-size: 12px;
+
+    width: 100%;
+}
+

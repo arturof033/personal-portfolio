@@ -1,0 +1,239 @@
+@import url("dm-mono.css");
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #212122;
+    /* removes horizontal scroll, only keeps vertical scroll */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* left side menu */
+.menu
+{
+    background-color: #FFFFF0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+
+    /* sets list items (options to different pages) to start from the top and be stretched out
+    to the most it can */
+    align-items: start;
+    display: stretch;
+}
+
+.menu ul
+{
+    /* removes list decorations and indentations */
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li
+{
+    /* creates "buttons" */
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+.menu ul li a
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color:#212122;
+    text-decoration: none;
+    font-size: 14px;
+    
+    /* flips text 90 degrees clockwise */
+    writing-mode: vertical-lr;
+    text-orientation:sideways-right;
+}
+
+
+.home
+{
+    background-color: #F8B3CA;
+}
+
+.projects
+{
+    background-color: #FFDAC1; 
+}
+
+.about
+{
+    background-color: #CCE8DB;
+}
+
+.contact
+{
+    background-color: #C1D4E3; 
+}
+
+.title h1
+{
+    font-family: 'dm_monoregular';
+    color: #FFFFF0;
+    font-size: 60px;
+    line-height: .5rem;
+    padding-left: 100px;
+}
+
+/* END OF LEFT SIDE MENU */
+
+/* group of cards */
+.content-body
+{
+    display: flex;
+    /* items stretch to fit the container */
+    align-items: start;
+    gap: 4.5rem;
+
+    /* max width according to space allocated */
+    width: 100%;
+
+    /* moves it away from side bar */
+    padding-left: 75px;
+    padding-right: 20px;
+    padding-bottom: 2rem;
+
+    margin-top: 125px;
+
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;
+
+
+}    
+
+.content-body h3
+{
+    font-family: "dm_monoitalic", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 22px;
+
+    text-align: center;
+}
+
+/* individual cards */
+.card
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    padding-bottom: 20px;
+
+    /* width fills out the given area */
+    width: 100%; 
+    
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/* experience card text */
+.personal p
+{
+    font-family: "dm_monoregular", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    line-height: 22.5px;
+    font-size: 13px;
+}
+
+/* right side group of divs */
+.other
+{
+    position: relative;
+    height: 100%;
+
+    
+}
+
+/* each cards on right side group of divs */
+.subcard
+{
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;
+
+    
+
+    height: 100%;
+
+    /* padding-top: 3rem; */
+
+    /* space between vertical divs */
+    /* margin-bottom: 50px; */
+}
+
+.skills
+{
+    /* margin at the bottom of the skills div */
+    margin-bottom: 100px;
+}
+
+
+/* group of lists */
+.skill-lists
+{
+    display: flex;
+    /* items stretch to fit the container */
+    align-items: center;
+    gap: 2rem;
+}
+
+/* each list */
+.minicard
+{
+    width: 100%;
+
+    padding: 15px;
+
+    border-width: 0px;
+    border-color: #FFFFF0;
+    border-radius: 10px;
+    border-style: solid;    
+    
+}
+
+.skills ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+.skills ul li
+{
+    font-family: "dm_monolight", Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFF0;
+    font-size: 14px;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.resume p
+{
+    text-align: center;
+    font-size: 14px;
+}
+
+.resume a
+{   
+    font-family: "dm_monolight_italic";
+    font-size: 16.5px;
+    text-decoration: none;
+    color: #FFFFF0;
+}
